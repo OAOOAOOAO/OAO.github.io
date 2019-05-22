@@ -1,0 +1,143 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    /* 背景漸層 */
+    background: linear-gradient(30deg, #3c92a5, #ef3870);
+    /* 字形設定 */
+    font-family: sans-serif;
+    /* 字體粗細 */
+    font-weight: 100;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+tbody td {
+    position: relative;
+}
+
+thead th {
+    background-color: #55608f;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+input {
+    border-radius: 5px;
+    min-width: 45%;
+    padding: 5px;
+    border: none;
+}
+
+#enter {
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #55608f;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
+    font-weight: normal;
+    width: 50px;
+    height: 28px;
+    display: inline-block;
+}
+
+#img {
+    color: white;
+    background-color: #55608f;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    border-radius: 5px;
+    width: 50px;
+    height: 28px;
+    padding: 5px 15px;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
+    font-weight: normal;
+    display: inline-block;
+}
+
+#enter:hover {
+    background-color: #02798F;
+    color: #FFCD5D;
+}
+
+#img:hover {
+    background-color: #02798F;
+    color: #FFCD5D;
+}
+
+#userInput2 {
+    border-radius: 5px;
+    min-width: 15%;
+    padding: 5px;
+    border: none;
+}
+
+button {
+    color: white;
+    background-color: #70020263;
+    border: #70020263;
+    text-align: center;
+    font-family: sans-serif;
+    display: table;
+    border-radius: 4px;
+    width: 80px;
+}
+
+ul {
+    display: inline-block;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+p {
+    font-weight: 600;
+    color: #ffffff;
+    font-family: sans-serif;
+}
